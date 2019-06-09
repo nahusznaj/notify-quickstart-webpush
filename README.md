@@ -56,10 +56,10 @@ If you have not already some so, Start up the “backend” server by navigating
 
 At this point you should be able to see your service up and running by opening [http://localhost:3000](http://localhost:3000) in browser.
 
-You will also need to fire up a web service of some kind to serve the Web Push App on localhost, there are multiple easy ways to do that. In this example we will use one liner from Python. Go to your Web Push App directory and in terminal window start the web server:
+You will also need to fire up a web service of some kind to serve the Web Push App on localhost, there are multiple easy ways to do that. In this example we will use one liner from Python. Go to your Web Push App directory and in terminal window start the web server: (it may be useful to consult this https://stackoverflow.com/a/7943768/7746941) 
 
 
-	$ python -m SimpleHTTPServer
+	$ python -m http.server
 	Serving HTTP on 0.0.0.0 port 8000 ...
 
 At this point you should be able to see your Web Push App by opening [http://localhost:8000](http://localhost:8000) in browser.
